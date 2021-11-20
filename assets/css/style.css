@@ -48,3 +48,9 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+ /* hero-image*/
+ #hero-image{
+     height: 600%;
+     width:100%;
+     background:url(../images/hero-image.webp);
+ }
