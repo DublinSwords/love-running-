@@ -18,12 +18,12 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252522;
+    color: #252525;
 }
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -69,6 +69,7 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
  }
+
  /* creates the level of zoom for hero image*/
  @keyframes hero-zoom {
      from{
@@ -138,18 +139,18 @@ h1, h2 {
     margin-bottom: 50px;
 
 }
-.right-about-heading h2{
+.right-about-heading h2 {
     text-align: right;
 }
-.right-about-heading p{
+.right-about-heading p {
     text-align: right;
 }
-#welcome{
+#welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
-#circule-contener{
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -159,7 +160,7 @@ h1, h2 {
     border-radius: 50%;
     margin: 0 auto;
 }
-#circule-cover-bg{
+#circle-cover-bg {
     background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
@@ -222,7 +223,7 @@ footer{
  @media screen and (max-width: 1200px) {
      #club-ethos {
          width: 65%;
-         height: 1200%;
+         height: 1200px;
          margin: 0 auto;
      }
      #welcome {
@@ -244,4 +245,15 @@ footer{
      hr {
          display: none;
      }
- }
+}
+/* for medium screen sizes from 950px wide and down*/
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    
+}
